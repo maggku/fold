@@ -9,8 +9,8 @@
       "price": 149.99,
       "category": 8,
       "rating": 4.5,
-      "image_url": "https://example.com/images/bag-1.jpg",
-      "image": "bag-1.jpg"
+      "image_url": "https://example.com/images/bag-1.png",
+      "image": "bag-1.png"
     }
   },
   {
@@ -23,8 +23,8 @@
       "price": 59.99,
       "category": 10,
       "rating": 4.7,
-      "image_url": "https://example.com/images/belt-1.jpg",
-      "image": "belt-1.jpg"
+      "image_url": "https://example.com/images/belt-1.png",
+      "image": "belt-1.png"
     }
   },
   {
@@ -37,8 +37,8 @@
       "price": 89.99,
       "category": 6,
       "rating": 4.3,
-      "image_url": "https://example.com/images/hat-1.jpg",
-      "image": "hat-1.jpg"
+      "image_url": "https://example.com/images/hat-1.png",
+      "image": "hat-1.png"
     }
   },
   {
@@ -51,8 +51,8 @@
       "price": 299.99,
       "category": 4,
       "rating": 4.8,
-      "image_url": "https://example.com/images/jacket-1.jpg",
-      "image": "jacket-1.jpg"
+      "image_url": "https://example.com/images/jacket-1.png",
+      "image": "jacket-1.png"
     }
   },
   {
@@ -65,8 +65,8 @@
       "price": 189.99,
       "category": 11,
       "rating": 4.7,
-      "image_url": "https://example.com/images/shoes-1.jpg",
-      "image": "shoes-1.jpg"
+      "image_url": "https://example.com/images/shoes-1.png",
+      "image": "shoes-1.png"
     }
   },
   {
@@ -79,8 +79,8 @@
       "price": 39.99,
       "category": 3,
       "rating": 4.2,
-      "image_url": "https://example.com/images/shorts-1.jpg",
-      "image": "shorts-1.jpg"
+      "image_url": "https://example.com/images/shorts-1.png",
+      "image": "shorts-1.png"
     }
   },
   {
@@ -93,8 +93,8 @@
       "price": 599.99,
       "category": 5,
       "rating": 4.9,
-      "image_url": "https://example.com/images/suit-1.jpg",
-      "image": "suit-1.jpg"
+      "image_url": "https://example.com/images/suit-1.png",
+      "image": "suit-1.png"
     }
   },
   {
@@ -107,8 +107,8 @@
       "price": 89.99,
       "category": 7,
       "rating": 4.3,
-      "image_url": "https://example.com/images/sunglasses-1.jpg",
-      "image": "sunglasses-1.jpg"
+      "image_url": "https://example.com/images/sunglasses-1.png",
+      "image": "sunglasses-1.png"
     }
   },
   {
@@ -121,8 +121,8 @@
       "price": 89.99,
       "category": 2,
       "rating": 4.5,
-      "image_url": "https://example.com/images/trousers-1.jpg",
-      "image": "trousers-1.jpg"
+      "image_url": "https://example.com/images/trousers-1.png",
+      "image": "trousers-1.png"
     }
   },
   {
@@ -135,8 +135,8 @@
       "price": 29.99,
       "category": 1,
       "rating": 4.4,
-      "image_url": "https://example.com/images/tshirt-1.jpg",
-      "image": "tshirt-1.jpg"
+      "image_url": "https://example.com/images/tshirt-1.png",
+      "image": "tshirt-1.png"
     }
   },
   {
@@ -149,8 +149,8 @@
       "price": 79.99,
       "category": 1,
       "rating": 4.6,
-      "image_url": "https://example.com/images/shirt-2.jpg",
-      "image": "shirt-2.jpg"
+      "image_url": "https://example.com/images/shirt-2.png",
+      "image": "shirt-2.png"
     }
   },
   {
@@ -163,8 +163,8 @@
       "price": 49.99,
       "category": 1,
       "rating": 4.4,
-      "image_url": "https://example.com/images/polo-1.jpg",
-      "image": "polo-1.jpg"
+      "image_url": "https://example.com/images/polo-1.png",
+      "image": "polo-1.png"
     }
   },
   {

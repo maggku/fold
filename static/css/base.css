@@ -3,10 +3,8 @@ html {
 }
 
 body {
-    background: url('/media/background-1.png');
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center top; /* Align image to top */
-    padding-top: 100px; /* Adjust as needed */
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
@@ -71,7 +69,6 @@ body {
 	background: white;
 	z-index: -1;
 }
-
 
 
 /* -------------------------------- Media Queries */
