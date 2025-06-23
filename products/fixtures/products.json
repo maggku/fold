@@ -177,8 +177,8 @@
       "price": 69.99,
       "category": 9,
       "rating": 4.7,
-      "image_url": "https://example.com/images/wallet-1.jpg",
-      "image": "wallet-1.jpg"
+      "image_url": "https://example.com/images/wallet-1.png",
+      "image": "wallet-1.png"
     }
   }
 ]
