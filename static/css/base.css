@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/background.png');
+    background: url('/media/background-1.png');
     background-size: cover;
     background-position: center top; /* Align image to top */
     padding-top: 100px; /* Adjust as needed */
