@@ -1,0 +1,184 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "BAG001",
+      "name": "Premium Leather Messenger Bag",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium materials. Crafted from supple leather, this messenger bag features a structured silhouette with adjustable strap and multiple compartments. The rich cognac tone will complement your professional wardrobe perfectly.\n\n* Adjustable shoulder strap\n* Multiple interior pockets\n* Magnetic closure\n\nShell: 100% Leather. Lining: 100% Cotton / Spot clean only\n\nDimensions: 38cm x 28cm x 8cm / Model carries size Standard",
+      "price": 149.99,
+      "category": 8,
+      "rating": 4.5,
+      "image_url": "https://example.com/images/bag-1.jpg",
+      "image": "bag-1.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "BELT001",
+      "name": "Classic Leather Belt",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium materials. Made from full-grain leather, this belt features a polished metal buckle and clean lines. The versatile black finish pairs seamlessly with both casual and formal attire.\n\n* Genuine leather construction\n* Metal buckle\n* Classic width\n\nShell: 100% Leather / Spot clean only\n\nAvailable in sizes 32-42 / Model wears size 34",
+      "price": 59.99,
+      "category": 10,
+      "rating": 4.7,
+      "image_url": "https://example.com/images/belt-1.jpg",
+      "image": "belt-1.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "HAT001",
+      "name": "Wool Fedora Hat",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Crafted from fine wool felt, this fedora features a classic crown shape with grosgrain band detail. The timeless charcoal shade adds sophisticated finishing to any ensemble.\n\n* Wool felt construction\n* Grosgrain band detail\n* Classic fedora shape\n\nShell: 100% Wool / Spot clean only\n\nAvailable in sizes S-XL / Model wears size M",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.3,
+      "image_url": "https://example.com/images/hat-1.jpg",
+      "image": "hat-1.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "JACKET001",
+      "name": "Tailored Wool Blazer",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from fine wool, this blazer is tailored in a modern slim-fit silhouette with notched lapels and structured shoulders. The deep navy hue will anchor your professional wardrobe.\n\n* Slim fit\n* Notched lapels\n* Two-button closure\n\nShell: 100% Wool. Lining: 100% Viscose / Dry clean only\n\nChest measurement of size EU 48 is 102cm / Model wears size EU 48",
+      "price": 299.99,
+      "category": 4,
+      "rating": 4.8,
+      "image_url": "https://example.com/images/jacket-1.jpg",
+      "image": "jacket-1.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "SHOES001",
+      "name": "Oxford Leather Shoes",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium materials. Crafted from polished leather, these Oxford shoes feature traditional lacing and a sleek silhouette. The rich black finish ensures versatility for both business and formal occasions.\n\n* Leather construction\n* Traditional lacing\n* Leather sole\n\nUpper and sole: 100% Leather / Spot clean only\n\nAvailable in sizes EU 40-46 / Model wears size EU 42",
+      "price": 189.99,
+      "category": 11,
+      "rating": 4.7,
+      "image_url": "https://example.com/images/shoes-1.jpg",
+      "image": "shoes-1.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "SHORTS001",
+      "name": "Cotton Chino Shorts",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from soft cotton twill, these chino shorts are tailored in a relaxed fit with a mid-length inseam. The versatile khaki tone pairs perfectly with both casual tees and smart polo shirts.\n\n* Relaxed fit\n* Mid-length inseam\n* Belt loops and pockets\n\nShell: 100% Cotton / Machine wash\n\nInside leg length of size M is 20cm / Model wears size M",
+      "price": 39.99,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://example.com/images/shorts-1.jpg",
+      "image": "shorts-1.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUIT001",
+      "name": "Two-Piece Wool Suit",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from fine wool, this two-piece suit features a tailored jacket with notched lapels and matching trousers. The sophisticated charcoal shade offers timeless elegance for formal occasions.\n\n* Tailored fit\n* Two-button jacket\n* Flat-front trousers\n\nShell: 100% Wool. Lining: 100% Viscose / Dry clean only\n\nChest measurement of size EU 48 is 102cm / Model wears size EU 48",
+      "price": 599.99,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://example.com/images/suit-1.jpg",
+      "image": "suit-1.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUNGLASSES001",
+      "name": "Aviator Sunglasses",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium materials. These aviator sunglasses feature a classic metal frame with gradient lenses and adjustable nose pads. The timeless gold-tone finish adds sophisticated style to any look.\n\n* Metal frame construction\n* Gradient lenses\n* UV protection\n\nFrame: Metal. Lenses: Polycarbonate / Clean with microfiber cloth\n\nLens width: 58mm / One size",
+      "price": 89.99,
+      "category": 7,
+      "rating": 4.3,
+      "image_url": "https://example.com/images/sunglasses-1.jpg",
+      "image": "sunglasses-1.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "TROUSERS001",
+      "name": "Tailored Cotton Trousers",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from soft cotton, these trousers are tailored in a straight-leg shape with belt loops and a number of pockets. The earthy mole-brown hue will pair back with the rest of your wardrobe.\n\n* Regular fit\n* Hook, bar and zip closure\n* Belt loops and pockets\n\nShell and pocket lining: 100% Cotton. Excluding trims / Machine wash\n\nInside leg length of size EU 48 is 80.7cm / Model wears a size EU 48",
+      "price": 89.99,
+      "category": 2,
+      "rating": 4.5,
+      "image_url": "https://example.com/images/trousers-1.jpg",
+      "image": "trousers-1.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "TSHIRT001",
+      "name": "Cotton Crew Neck T-Shirt",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from soft cotton jersey, this crew neck t-shirt features a relaxed fit and classic silhouette. The versatile white shade provides the perfect base for layering or wearing alone.\n\n* Relaxed fit\n* Crew neck\n* Short sleeves\n\nShell: 100% Cotton / Machine wash\n\nChest measurement of size M is 102cm / Model wears size M",
+      "price": 29.99,
+      "category": 1,
+      "rating": 4.4,
+      "image_url": "https://example.com/images/tshirt-1.jpg",
+      "image": "tshirt-1.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "SHIRT001",
+      "name": "Cotton Dress Shirt",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from crisp cotton poplin, this dress shirt features a spread collar and French cuffs. The classic white finish provides the perfect foundation for any formal ensemble.\n\n* Tailored fit\n* Spread collar\n* French cuffs\n\nShell: 100% Cotton / Machine wash\n\nChest measurement of size M is 102cm / Model wears size M",
+      "price": 79.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://example.com/images/shirt-2.jpg",
+      "image": "shirt-2.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "POLO001",
+      "name": "Cotton Pique Polo Shirt",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium fabrics. Made from soft cotton pique, this polo shirt features a classic collar and three-button placket. The crisp white shade provides versatile styling options for both casual and smart-casual occasions.\n\n* Regular fit\n* Three-button placket\n* Ribbed collar and cuffs\n\nShell: 100% Cotton / Machine wash\n\nChest measurement of size M is 102cm / Model wears size M",
+      "price": 49.99,
+      "category": 1,
+      "rating": 4.4,
+      "image_url": "https://example.com/images/polo-1.jpg",
+      "image": "polo-1.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "WALLET001",
+      "name": "Leather Bifold Wallet",
+      "description": "The menswear collection champions the COS design pillars of perfected cuts and premium materials. Crafted from supple leather, this bifold wallet features multiple card slots and a bill compartment. The sophisticated black finish ensures durability while maintaining a sleek profile.\n\n* Bifold design\n* Multiple card slots\n* Bill compartment\n\nShell: 100% Leather / Spot clean only\n\nDimensions: 11cm x 9cm x 2cm / One size",
+      "price": 69.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://example.com/images/wallet-1.jpg",
+      "image": "wallet-1.jpg"
+    }
+  }
+]
