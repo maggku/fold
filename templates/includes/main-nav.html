@@ -5,10 +5,10 @@
                 ALL MENSWEAR
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">BY PRICE</a>
-                <a href="" class="dropdown-item ">BY RATING</a>
-                <a href="" class="dropdown-item ">BY CATEGORY</a>
-                <a href="{% url 'products' %}" class="dropdown-item">ALL MENSWEAR</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -17,12 +17,12 @@
                 CLOTHING
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">TOPS</a>
-                <a href="" class="dropdown-item">TROUSERS</a>
-                <a href="" class="dropdown-item">SHORTS</a>
-                <a href="" class="dropdown-item">JACKETS</a>
-                <a href="" class="dropdown-item">SUITS</a>
-                <a href="" class="dropdown-item">ALL CLOTHING</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">TOPS</a>
+                <a href="{% url 'products' %}?category=trousers" class="dropdown-item">TROUSERS</a>
+                <a href="{% url 'products' %}?category=shorts" class="dropdown-item">SHORTS</a>
+                <a href="{% url 'products' %}?category=jackets" class="dropdown-item">JACKETS</a>
+                <a href="{% url 'products' %}?category=suits" class="dropdown-item">SUITS</a>
+                <a href="{% url 'products' %}?category=tops,trousers,shorts,jackets,suits" class="dropdown-item">ALL CLOTHING</a>
             </div>
         </li>
 
@@ -31,12 +31,12 @@
                 ACCESSORIES
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">HATS</a>
-                <a href="" class="dropdown-item">SUNGLASSES</a>
-                <a href="" class="dropdown-item">BAGS &amp; WALLETS</a>
-                <a href="" class="dropdown-item">BELTS</a>
-                <a href="" class="dropdown-item">SHOES</a>
-                <a href="" class="dropdown-item">ALL ACCESSORIES</a>
+                <a href="{% url 'products' %}?category=hats" class="dropdown-item">HATS</a>
+                <a href="{% url 'products' %}?category=sunglasses" class="dropdown-item">SUNGLASSES</a>
+                <a href="{% url 'products' %}?category=bags,wallets" class="dropdown-item">BAGS &amp; WALLETS</a>
+                <a href="{% url 'products' %}?category=belts" class="dropdown-item">BELTS</a>
+                <a href="{% url 'products' %}?category=shoes" class="dropdown-item">SHOES</a>
+                <a href="{% url 'products' %}?category=hats,sunglasses,bags,wallets,belts,shoes" class="dropdown-item">ALL ACCESSORIES</a>
             </div>
         </li>
     </ul>
