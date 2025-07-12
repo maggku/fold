@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'fold-project-four-d0aa474b58d4.herokuapp.com/',
+    '.herokuapp.com',
     ]
 
 
