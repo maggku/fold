@@ -32,7 +32,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'https://fold-project-four-d0aa474b58d4.herokuapp.com/',
+    'fold-project-four-d0aa474b58d4.herokuapp.com/',
     ]
 
 
