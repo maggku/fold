@@ -181,16 +181,6 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-import os
-import sys
-
-# Add this debugging section at the top of your settings.py
-print("=== DEBUG INFO ===")
-print(f"USE_AWS in environ: {'USE_AWS' in os.environ}")
-print(f"USE_AWS value: {os.environ.get('USE_AWS')}")
-print(f"AWS_ACCESS_KEY_ID exists: {bool(os.environ.get('AWS_ACCESS_KEY_ID'))}")
-print(f"AWS_SECRET_ACCESS_KEY exists: {bool(os.environ.get('AWS_SECRET_ACCESS_KEY'))}")
-print("================")
 
 # Replace the AWS configuration section in your settings.py with this:
 
@@ -218,11 +208,13 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
     
-    # ADD THIS LINE - Static root is still needed for collectstatic
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 else:
     STATIC_URL = '/static/'
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    MEDIA_URL = '/media/'
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# STATIC_ROOT (needed for collectstatic)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
