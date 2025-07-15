@@ -183,7 +183,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Replace the AWS configuration section in your settings.py with this:
 
-if 'USE_AWS' in os.environ:
+if os.environ.get('USE_AWS') == 'True':
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'fold-project-four'
     AWS_S3_REGION_NAME = 'eu-north-1'
