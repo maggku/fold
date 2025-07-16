@@ -21,6 +21,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .main-logo-link {
@@ -52,10 +53,10 @@ body {
     color: #000 !important;
 }
 
-.border-black {
+/* .border-black {
     border: 1px solid black !important;
 }
-
+*/
 .bg-black {
     background: #000 !important;
 }
