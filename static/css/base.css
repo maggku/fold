@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('https://fold-project-four.s3://fold-project-four/media/bacground-2.png') no-repeat center center fixed;
+    background: url('https://fold-project-four.s3.eu-north-1.amazonaws.com/media/background-2.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
