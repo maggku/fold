@@ -5,10 +5,10 @@ from django.conf import settings
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
-from products.models import Product
-from profiles.forms import UserProfileForm
-from profiles.models import UserProfile
-from bag.contexts import bag_contents
+from apps.products.models import Product
+from apps.profiles import UserProfileForm
+from apps.profiles import UserProfile
+from apps.bag.contexts import bag_contents
 
 import stripe
 import json

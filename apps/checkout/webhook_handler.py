@@ -4,8 +4,8 @@ from django.template.loader import render_to_string
 from django.conf import settings
 
 from .models import Order, OrderLineItem
-from products.models import Product
-from profiles.models import UserProfile
+from apps.products.models import Product
+from apps.profiles import UserProfile
 
 import json
 import time
