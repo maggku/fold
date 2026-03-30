@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class CheckoutConfig(AppConfig):
-    name = 'checkout'
+    name = 'apps.checkout'
 
     def ready(self):
         pass
